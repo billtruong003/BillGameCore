@@ -1,0 +1,24 @@
+{
+    "name": "BillGameCore.Extras",
+    "rootNamespace": "BillGameCore",
+    "references": [
+        "BillInspector.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "BILL_INSPECTOR"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.bill.inspector",
+            "expression": "0.0.0",
+            "define": "BILL_INSPECTOR"
+        }
+    ],
+    "noEngineReferences": false
+}

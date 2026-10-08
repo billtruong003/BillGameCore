@@ -1,0 +1,44 @@
+{
+  "name": "com.bill.gamecore",
+  "version": "3.1.0",
+  "displayName": "BillGameCore",
+  "description": "Code-first Unity 6 game framework: auto-bootstrap, service locator with tracing, EventBus, pooling, BillTween, audio, scene flow, state machine, timers, save, dev console and a virtual joystick.",
+  "unity": "6000.0",
+  "keywords": [
+    "bootstrap",
+    "framework",
+    "service-locator",
+    "eventbus",
+    "pooling",
+    "tween",
+    "audio",
+    "state-machine"
+  ],
+  "author": {
+    "name": "Bill Truong",
+    "url": "https://github.com/billtruong003"
+  },
+  "license": "MIT",
+  "documentationUrl": "https://billtruong003.github.io/BillGameCore/",
+  "changelogUrl": "https://github.com/billtruong003/BillGameCore/blob/main/Packages/com.bill.gamecore/CHANGELOG.md",
+  "licensesUrl": "https://github.com/billtruong003/BillGameCore/blob/main/LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/billtruong003/BillGameCore.git"
+  },
+  "dependencies": {
+    "com.unity.ugui": "2.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Quick Start",
+      "description": "Minimal game wired through Bill.* services",
+      "path": "Samples~/QuickStart"
+    },
+    {
+      "displayName": "Tween Demo",
+      "description": "Every BillTween shortcut, ease and sequence on one scene",
+      "path": "Samples~/TweenDemo"
+    }
+  ]
+}

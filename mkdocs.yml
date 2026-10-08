@@ -1,0 +1,80 @@
+site_name: BillGameCore
+site_description: Code-first game framework for Unity 6
+site_url: https://billtruong003.github.io/BillGameCore/
+repo_url: https://github.com/billtruong003/BillGameCore
+repo_name: billtruong003/BillGameCore
+edit_uri: edit/main/docs/
+copyright: MIT License · Bill Truong
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - Installation: getting-started/installation.md
+      - Quick start: getting-started/quick-start.md
+      - Upgrading from 3.0: getting-started/upgrading.md
+  - Core:
+      - Bootstrap & config: core/bootstrap.md
+      - Service locator & tracing: core/services.md
+      - EventBus: core/events.md
+      - Game state machine: core/state-machine.md
+  - Services:
+      - BillTween: services/tween.md
+      - Pool: services/pool.md
+      - Audio: services/audio.md
+      - Scenes: services/scene.md
+      - Timer: services/timer.md
+      - Save & config: services/save-config.md
+      - UI panels: services/ui.md
+  - Tools:
+      - Dev console & overlay: tools/devtools.md
+      - Startup screen: tools/startup.md
+      - Virtual joystick: tools/joystick.md
+      - Networking (Fusion): tools/networking.md
+  - BillInspector: inspector/index.md
+  - Ecosystem: ecosystem.md
+  - Known issues: known-issues.md
+  - Changelog: changelog.md
